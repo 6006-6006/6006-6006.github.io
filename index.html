@@ -246,7 +246,7 @@ const closeSettingsBtn = document.getElementById('closeSettingsBtn');
 // ---- Bird image ----
 const birdImg = new Image();
 birdImg.crossOrigin = "anonymous";
-birdImg.src = "https://pbs.twimg.com/media/HMfbKBLXUAA4tFf?format=png&name=360x360";
+birdImg.src = "https://cdn.discordapp.com/attachments/1375193314130919544/1523423788291850240/Untitled43_20260705212021.png?ex=6a4c0e76&is=6a4abcf6&hm=58dab293ab0cd8c827668ae32dce8ef35aeb1c08506f366bb35ccf539e574ee8&";
 let birdImgLoaded = false;
 birdImg.onload = () => { birdImgLoaded = true; };
 birdImg.onerror = () => { birdImgLoaded = false; };
@@ -548,7 +548,7 @@ function loop() {
 // ---- Overlay screens ----
 function showReadyScreen() {
   overlay.innerHTML = `
-    <h1>Flappy Bird</h1>
+    <h1>Flying Freddison</h1>
     <p>High score: ${highscore}</p>
     <p class="hint">Tap, click, or press space to flap</p>
   `;
